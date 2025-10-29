@@ -9,7 +9,7 @@ body{
    justify-content: center;
    align-items: center;
    text-align: center;
-   background-color: rgb(203, 245, 253);
+   background-color: rgb(235, 247, 249);
 
  }
  .conteur{
@@ -20,12 +20,35 @@ body{
    height: 20px;
    font-size: 30px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-   border-color: rgb(227, 32, 227);
+   border-color: rgb(245, 242, 245);
    border-radius: 70px;
    border-style: solid;
-   background-color: rgb(249, 15, 241);
+   color: #fff;
+   background-color: rgb(0, 90, 151);
    
  }
  .conteur span{
-   color: rgb(2, 104, 173);
+
+   color: rgb(146, 208, 250);
+ }
+ .carts{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(3,1fr);
+ }
+ button{
+   background-color: rgb(247, 145, 233);
+   color: rgb(4, 97, 211);
+   border-radius: 10px;
+   border-color: #fff;
+   font-size: 20px;
+   width: 90px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ button:hover{
+    background-color: rgb(4, 97, 211);
+    color:rgb(247, 145, 233)
  }
