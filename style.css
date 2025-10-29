@@ -1,0 +1,31 @@
+*{
+   padding: 30px;
+   margin: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(203, 245, 253);
+
+ }
+ .conteur{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 500px;
+   height: 20px;
+   font-size: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   border-color: rgb(227, 32, 227);
+   border-radius: 70px;
+   border-style: solid;
+   background-color: rgb(249, 15, 241);
+   
+ }
+ .conteur span{
+   color: rgb(2, 104, 173);
+ }
